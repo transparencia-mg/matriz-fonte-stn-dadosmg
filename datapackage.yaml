@@ -14,7 +14,6 @@ resources:
     format: csv
     encoding: utf-8
     dialect:
-        csv:
             delimiter: ;
     schema: schemas/matriz_receita.yaml
 -   profile: tabular-data-resource
@@ -24,7 +23,6 @@ resources:
     format: csv
     encoding: utf-8
     dialect:
-        csv:
             delimiter: ;
     schema: schemas/matriz_despesa.yaml
 -   profile: tabular-data-resource
@@ -42,6 +40,5 @@ resources:
     format: csv
     encoding: utf-8
     dialect:
-        csv:
             delimiter: ;
     schema: schemas/fonte_stn.yaml
