@@ -25,6 +25,7 @@ fields:
       maximum: 12
   - name: UO_COD
     title: Unidade Orçamentária - Código
+    description: Código da Unidade Orçamentária que executa uma despesa
     type: string
     format: default
     constraints: 
