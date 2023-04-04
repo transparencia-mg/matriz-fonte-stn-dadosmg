@@ -1,6 +1,7 @@
 fields:
   - name: FONTE_STN_COD
     title: Fonte de Recurso STN - Código
+    description: Código da Fonte de Recurso conforme estabelecido na Portaria Conjunta STN SOF nº 20/2021 e da Portaria STN n° 710/2021.
     type: integer
     format: default
     constraints: 
@@ -32,6 +33,7 @@ fields:
       pattern: \d{4}
   - name: FONTE_COD
     title: Fonte de Recurso - Código
+    description: Código da Fonte de Recurso utilizada até o exercício de 2022.
     type: integer
     format: default
     constraints: 
@@ -40,6 +42,7 @@ fields:
       maximum: 99
   - name: RECEITA_COD
     title: Classificação Receita - Código
+    description: Código completo da classificação econômica da receita
     type: string
     format: default
     constraints: 
